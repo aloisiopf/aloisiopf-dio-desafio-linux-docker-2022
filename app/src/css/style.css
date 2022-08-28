@@ -1,0 +1,35 @@
+.flex-container{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	border: 2px solid black;
+	margin-bottom: 5px;
+}
+.flex-item{
+	background-color: blue;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: 5px;
+}
+.flex{
+	max-width: 300px;
+	padding: 10px;
+	border: 2px solid black;
+	margin-bottom: 5px;
+	display: flex;
+	background-color: lightgray;
+}
+.item{
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+.wrap{
+	flex-wrap: wrap;
+}
